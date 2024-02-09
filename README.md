@@ -9,37 +9,27 @@ How to Run the Code
 Follow these steps to compile and run the program:
 
 Clone the Repository:
-
-bash
 Copy code
 gh repo clone ColeFordU/CS303Assignment1
-Navigate to the Project Directory:
 
-bash
+Navigate to the Project Directory:
 Copy code
 cd <project_directory>
-Compile the Code:
 
+Compile the Code:
 css
 Copy code
 g++ -o program main.cpp
-Run the Program:
 
+Run the Program:
 bash
 Copy code
 ./program
 Input Data
-Ensure that the input file "input.txt" is located in the same directory as the source code file "main.cpp". The input file should contain integers separated by whitespace.
+Ensure that the input file "A1input.txt" is located in the same directory as the source code file "main.cpp". The input file should contain integers separated by whitespace.
 
 Output
 The program will display various operations performed on the array elements, such as modifying values, adding integers, and more. The output will be shown in the terminal.
 
 Example Usage
 Here's an example of how to run the program:
-
-bash
-Copy code
-git clone <repository_url>
-cd <project_directory>
-g++ -o program main.cpp
-./program
